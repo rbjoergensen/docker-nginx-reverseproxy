@@ -1,0 +1,1 @@
+sed -i 's/<backend_placeholder>/'$BACKEND_ADDR'/g' /etc/nginx/nginx.conf
