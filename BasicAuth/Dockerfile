@@ -8,8 +8,9 @@ RUN apt update ; \
     touch /etc/apache2/.htpasswd ; \
     chmod 766 /etc/apache2/.htpasswd
 
-COPY client.pem /etc/nginx/client.pem
-COPY client.key /etc/nginx/client.key
+# Debug
+# COPY client.pem /etc/nginx/client.pem
+# COPY client.key /etc/nginx/client.key
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY error.html /var/www/error.html
