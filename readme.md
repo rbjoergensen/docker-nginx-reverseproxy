@@ -7,3 +7,5 @@
 ##### Environment variables
 - BACKEND_ADDR (eg. 192.168.1.10:8080)
     The address of the backend http service to proxy for.
+- AUTH_USER (If using BasicAuth build)
+- AUTH_PASS (If using BasicAuth build)
